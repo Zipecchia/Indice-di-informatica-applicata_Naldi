@@ -1,0 +1,1 @@
+# Indice-di-informatica-applicata_Naldi

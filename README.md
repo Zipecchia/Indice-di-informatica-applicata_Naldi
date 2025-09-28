@@ -2,5 +2,5 @@ Questo è il mio indice delle lezioni di Informatica applicata, la prima challen
 
 
 
-
+Puoi visualizzare la pagina [qui](Html_base.html).
 Viola Naldi

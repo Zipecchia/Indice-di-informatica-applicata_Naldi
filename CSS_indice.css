@@ -1,21 +1,57 @@
+
+/* Base */
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: medium;
-}
-
-p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+  background: #c8c4ff;
+  color: #2a2a2a;
 }
 
-h1 {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:xx-large;
-    font-weight:bolder;
+/* Header */
+.header1 {
+  background: #5e1580;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-a {/*permette di togliere il colore blu e la sottolinatura ai link*/
-    color: black;          
+
+/* Contenitore centrale */
+.container {
+  max-width: 820px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Lista lezioni */
+.lezioni {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  text-align: center;
+}
+
+/* Card/Link lezione */
+.lezione {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #dcdcdc;
+  color: black;
+  font-weight: 600;
   text-decoration: none;
 }
+
+
+/* Footer */
+.footer1 {
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 32px;
+  background: white;
+  font-weight: 700;
+}
+

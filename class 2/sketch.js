@@ -11,7 +11,7 @@ function setup() {
 
 
 function draw() {
-  background("#12176505");
+  background("#121865ff");
   //mostrare un testo bianco che dice le coordinate del mouse
   //sul foglio da disegno
   fill(255);//bianco
@@ -30,8 +30,8 @@ push();
 noStroke();
 //ciclo 1 specifica stella a, 40
 for(let i=0; i < 120; i++){
-  let starX = (i*37) % width + (i%3) *5;
-  let starY = ((i*73) % height) + (i%7);
+  let starX = random (0, 400);
+  let starY = random (0, 600);
   if ( i % 2 == 0){
     //stella tipo a
     fill(255,255,150);
@@ -74,5 +74,5 @@ ellipse(xRocket,yRocket+30,48,48);
 pop();
 //servono per non far influire alcune cose sul disegno
 
-xRocket = (xRocket +1) % xMax;
+yRocket = (yRocket -1) % xMax;
 }

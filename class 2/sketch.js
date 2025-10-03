@@ -11,7 +11,7 @@ function setup() {
 
 
 function draw() {
-  background("#121865ff");
+  background("#121865");
   //mostrare un testo bianco che dice le coordinate del mouse
   //sul foglio da disegno
   fill(255);//bianco
